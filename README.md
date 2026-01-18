@@ -36,7 +36,7 @@ This project reflects a "real-world serverless architecture" commonly used for i
 
 🔄 Project Workflow
 
-S3 Upload → Lambda → S3 Output → API Gateway → User
+- S3 Upload → Lambda → S3 Output → API Gateway → User
 
 
 1. A user uploads an image to the "input S3 bucket"
@@ -95,15 +95,15 @@ S3 Upload → Lambda → S3 Output → API Gateway → User
 
 
 
- 1 Add image resizing and format conversion
+  1 Add image resizing and format conversion
 
- 2 Integrate Amazon Rekognition for image analysis
+  2 Integrate Amazon Rekognition for image analysis
 
- 3 Secure API Gateway with authentication
+  3 Secure API Gateway with authentication
 
- 4 Implement Infrastructure as Code (Terraform / CloudFormation)
+  4 Implement Infrastructure as Code (Terraform / CloudFormation)
 
- 5 Add lifecycle policies for processed images
+  5 Add lifecycle policies for processed images
 
 
 
