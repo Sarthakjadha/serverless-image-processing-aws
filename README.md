@@ -18,15 +18,15 @@ This project reflects a "real-world serverless architecture" commonly used for i
 
  🛠 AWS Services Used
 
- Amazon S3 :– Stores input and processed images  
+ - Amazon S3 :– Stores input and processed images  
 
- AWS Lambda : – Performs image processing logic  
+ - AWS Lambda : – Performs image processing logic  
 
- Amazon API Gateway :– Exposes REST API for image access (optional)  
+ - Amazon API Gateway :– Exposes REST API for image access (optional)  
 
-Amazon CloudWatch :– Logs and monitors Lambda execution  
+ - Amazon CloudWatch :– Logs and monitors Lambda execution  
 
-AWS IAM : – Manages secure permissions and access control  
+ - AWS IAM : – Manages secure permissions and access control  
 
 
 
@@ -59,11 +59,11 @@ S3 Upload → Lambda → S3 Output → API Gateway → User
 
 ## Key Responsibilities:
 
-Read uploaded image from S3
+- Read uploaded image from S3
 
-Process or transform the image
+- Process or transform the image
 
-Store the processed image in the destination bucket
+- Store the processed image in the destination bucket
 
 
 ---
@@ -74,38 +74,17 @@ Store the processed image in the destination bucket
 
 
 
- Fully serverless architecture
+ - Fully serverless architecture
 
- Event-driven image processing
+ - Event-driven image processing
 
- Automatic scaling with AWS Lambda
+ - Automatic scaling with AWS Lambda
 
- No server management required
+ - No server management required
 
- Cost-efficient pay-per-execution model
+ - Cost-efficient pay-per-execution model
 
- Real-time monitoring using CloudWatch
-
-
-
----
-
-
-
- 📈 Learning Outcomes
-
-
-
- Hands-on experience with AWS serverless services
-
- Understanding of S3 event notifications
-
- Practical implementation of AWS Lambda
-
- IAM role-based security management
-
- Designing scalable and fault-tolerant architectures
-
+ - Real-time monitoring using CloudWatch
 
 
 ---
@@ -116,15 +95,15 @@ Store the processed image in the destination bucket
 
 
 
- Add image resizing and format conversion
+ 1 Add image resizing and format conversion
 
- Integrate Amazon Rekognition for image analysis
+ 2 Integrate Amazon Rekognition for image analysis
 
- Secure API Gateway with authentication
+ 3 Secure API Gateway with authentication
 
- Implement Infrastructure as Code (Terraform / CloudFormation)
+ 4 Implement Infrastructure as Code (Terraform / CloudFormation)
 
- Add lifecycle policies for processed images
+ 5 Add lifecycle policies for processed images
 
 
 
