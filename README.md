@@ -93,8 +93,6 @@ This project reflects a "real-world serverless architecture" commonly used for i
 
 🚀 Future Enhancements
 
-
-
   1 Add image resizing and format conversion
 
   2 Integrate Amazon Rekognition for image analysis
