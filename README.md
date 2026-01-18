@@ -4,11 +4,11 @@
 
 📌 Project Overview
 
-This project demonstrates a \*\*serverless, event-driven image processing platform\*\* built using AWS services.  
+This project demonstrates a "serverless, event-driven image processing " built using AWS services.  
 
 Images uploaded to an Amazon S3 bucket automatically trigger an AWS Lambda function that processes the images and stores the output in another S3 bucket. The solution is fully serverless, scalable, and cost-efficient.
 
-This project reflects a \*\*real-world serverless architecture\*\* commonly used for image handling, media processing, and backend automation.
+This project reflects a "real-world serverless architecture" commonly used for image handling, media processing, and backend automation.
 
 
 
@@ -18,8 +18,6 @@ This project reflects a \*\*real-world serverless architecture\*\* commonly used
 
  🛠 AWS Services Used
 
-
-
  Amazon S3 :– Stores input and processed images  
 
  AWS Lambda : – Performs image processing logic  
@@ -28,7 +26,7 @@ This project reflects a \*\*real-world serverless architecture\*\* commonly used
 
 Amazon CloudWatch :– Logs and monitors Lambda execution  
 
-\- AWS IAM : – Manages secure permissions and access control  
+AWS IAM : – Manages secure permissions and access control  
 
 
 
@@ -38,6 +36,7 @@ Amazon CloudWatch :– Logs and monitors Lambda execution
 
 🔄 Project Workflow
 
+S3 Upload → Lambda → S3 Output → API Gateway → User
 
 
 1. A user uploads an image to the "input S3 bucket"
